@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .important::after{
+            content: "*";
+            color: red;
+        }
+        .form{
+            width: 60%;
+            height: 850px;
+            border: 0.5px solid rgb(97, 95, 95);
+            margin-left: 250px;
+            padding: 10px;
+        }
+        #last{
+            padding-left: 163px;
+        }
+        .input-email{
+            width: 350px;
+        }
+
+        /* star rating in css */
+.rating {
+    display: flex;
+}
+
+.rating input {
+    display: none;
+}
+.rating label::before {
+    content: "\2605";
+    font-size: 30px;
+    color: transparent;
+    background: linear-gradient(90deg, #FFD700 0%, #FFD700 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+        /* star rating css end */
+
+        #rateText{
+            font-size: 10px;
+        }
+        .titleSatis{
+             font-size: 10px;
+        }
+        .ti1{
+            padding-left: 160px;
+        }
+        .ti2{
+            padding-left: 60px;
+        }
+        .ti3{
+            padding-left: 90px;
+        }
+        .ti4{
+            padding-left: 85px;
+        }
+        .ti5{
+            padding-left: 80px;
+        }
+        .navbar1{
+            width: 100%;
+            height: 30px;
+            background-color: rgb(230, 228, 223);
+            border-radius: 5px;
+        
+        }
+        .navbar{
+            width: 60%;
+            height: 30px;
+            background-color: rgb(230, 228, 223);
+            border-radius: 5px;
+            position: relative;
+            top: -24px;
+            left: 190px;
+        }
+        .text1{
+            font-size: 12px;
+            padding-left: 10px;
+        }
+        .sRed1{
+            position: relative;
+            top: 0px;
+            left: 139px;
+        }
+        .sRed2{
+            position: relative;
+            top: 0px;
+            left: 246px;
+        }
+        .sRed3
+        {
+            position: relative;
+            top: 0px;
+            left: 356px;
+        }
+        .sRed4
+        {
+            position: relative;
+            top: 0px;
+            left: 464px;
+        }
+        .sRed5
+        {
+            position: relative;
+            top: 0px;
+            left: 574px;
+        }
+        .tit1{
+            padding-left: 160px;
+        }
+        .tit2{
+            padding-left: 80px;
+        }
+        .tit3{
+            padding-left: 100px;
+        }
+        .tit4{
+            padding-left: 90px;
+        }
+        .tit5{
+            padding-left: 85px;
+        }
+        .nav1{
+            width: 100%;
+            height: 50px;
+            /* background-color: #FFD700; */
+        }
+        .text2{
+            font-size: 12px;
+            padding-left: 10px;
+        }
+        .sRed01{
+            position: relative;
+            top: 0px;
+            left: 88px;
+        }
+        .sRed02{
+            position: relative;
+            top: 0px;
+            left: 197px;
+        }
+        .sRed03
+        {
+            position: relative;
+            top: 0px;
+            left: 306px;
+        }
+        .sRed04
+        {
+            position: relative;
+            top: 0px;
+            left: 414px;
+        }
+        .sRed05
+        {
+            position: relative;
+            top: 0px;
+            left: 525px;
+        }
+        .nav2{
+            width: 100%;
+            height: 50px;
+            background-color: rgb(230, 228, 223);
+            border-radius: 5px;
+        }
+        .sRed010{
+            position: relative;
+            top: 0px;
+            left: 82px;
+        }
+        .sRed020{
+            position: relative;
+            top: 0px;
+            left: 191px;
+        }
+        .sRed030
+        {
+            position: relative;
+            top: 0px;
+            left: 300px;
+        }
+        .sRed040
+        {
+            position: relative;
+            top: 0px;
+            left: 410px;
+        }
+        .sRed050
+        {
+            position: relative;
+            top: 0px;
+            left: 520px;
+        }
+        .textArea{
+            width: 100%;
+            height: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form action="">
+            <label for="fristName" class="important">Name</label><br>
+            <input type="text" autofocus>
+            <input type="text">
+            <br>
+            <span>First</span>
+            <span id="last">Last</span>
+            <br><br>
+            <label for="email" class="important">Email</label><br>
+            <input type="text" class="input-email"><br><br>
+            <label for="email" class="important">Your Experience</label><br>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1"></label>
+                
+            </div>
+            <span id="rateText">Overall, how would you rate you experience with us?</span>
+            <br><br>
+            <label for="email" class="important">How satisfied are  you with</label><br>
+    
+            <div class="titleSatis">
+                <label for="tit1" class="ti1">Very Unsatisfied</label>
+                <label for="tit2" class="ti2">Unsatisfied</label>
+                <label for="tit3" class="ti3">Neutral</label>
+                <label for="tit4" class="ti4">Satisfied</label>
+                <label for="tit5" class="ti5">Very Satisfied</label>
+            </div>
+            <nav class="navbar1">
+                <span class="text1">Purchase</span>
+                <nav class="navbar">          
+                    <input type="radio" class="firRed1" name="Click">
+                    <input type="radio" class="firRed2" name="Click">
+                    <input type="radio" class="firRed3" name="Click">
+                    <input type="radio" class="firRed4" name="Click">
+                    <input type="radio" class="firRed5" name="Click">
+              </nav>
+             </nav>
+             <nav class="navbar2">
+                <span class="text1">Service</span>
+                    <input type="radio" class="sRed1" name="Click1">
+                    <input type="radio" class="sRed2" name="Click1">
+                    <input type="radio" class="sRed3" name="Click1">
+                    <input type="radio" class="sRed4" name="Click1">
+                    <input type="radio" class="sRed5" name="Click1">
+             </nav>
+             <nav class="navbar1">
+                <span class="text1">Company Overall</span>
+                <nav class="navbar">          
+                    <input type="radio" class="firRed1" name="Click2">
+                    <input type="radio" class="firRed2" name="Click2">
+                    <input type="radio" class="firRed3" name="Click2">
+                    <input type="radio" class="firRed4" name="Click2">
+                    <input type="radio" class="firRed5" name="Click2">
+              </nav>
+             </nav>
+             <br>
+             <label for="email" class="important">How likely are  you to</label><br>
+    
+             <div class="titleSatis">
+                 <label for="tit1" class="tit1">Very Unlikely</label>
+                 <label for="tit2" class="tit2">Unlikely</label>
+                 <label for="tit3" class="tit3">Neutral</label>
+                 <label for="tit4" class="tit4">Likely</label>
+                 <label for="tit5" class="tit5">Very Likely</label>
+             </div>
+             <nav class="navbar1">
+                 <span class="text1">Buy from us agian</span>
+                 <nav class="navbar">          
+                     <input type="radio" class="firRed1" name="Click4">
+                     <input type="radio" class="firRed2" name="Click4">
+                     <input type="radio" class="firRed3" name="Click4">
+                     <input type="radio" class="firRed4" name="Click4">
+                     <input type="radio" class="firRed5" name="Click4">
+               </nav>
+              </nav>
+              <nav class="nav1">
+                    <span class="text2">Recommended our</span><br>
+                    <span class="text2">product to other</span>
+                    <input type="radio" class="sRed01" name="Click5">
+                    <input type="radio" class="sRed02" name="Click5">
+                    <input type="radio" class="sRed03" name="Click5">
+                    <input type="radio" class="sRed04" name="Click5">
+                    <input type="radio" class="sRed05" name="Click5">
+              </nav>
+              <nav class="nav2">
+                <span class="text2">Recommended our</span><br>
+                <span class="text2">company to other</span>
+                <input type="radio" class="sRed010" name="Click6">
+                <input type="radio" class="sRed020" name="Click6">
+                <input type="radio" class="sRed030" name="Click6">
+                <input type="radio" class="sRed040" name="Click6">
+                <input type="radio" class="sRed050" name="Click6">
+          </nav>
+          <br>
+          <label for="email" class="important1">Additional comments or suggestions</label><br>
+          <textarea name="" class="textArea"></textarea>
+          <button id="submit">Submit</button>
+            
+        </form>
+    </div>
+</body>
+</html>
